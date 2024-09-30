@@ -1,4 +1,5 @@
-FROM python:3.10
+# Dockerfile
+FROM python:3.9
 WORKDIR /app
 RUN apt-get update -y
 RUN apt-get upgrade -y
