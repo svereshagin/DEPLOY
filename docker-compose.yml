@@ -1,0 +1,8 @@
+version: "3.9"
+
+services: 
+  django-backend:
+    restart: always
+    build:
+      context: ./StudySite # django service folder
+    image: djangobackend# name the resulted image: https://docs.docker.com/compose/compose-file/compose-file-v3/#build.
