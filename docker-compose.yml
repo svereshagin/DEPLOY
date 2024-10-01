@@ -2,5 +2,5 @@ services:
   django-backend:
     restart: always
     build:
-      context: ./StudySite # django service folder
-    image: StudySite
+      context: ./studysite # django service folder
+    image: studysite
