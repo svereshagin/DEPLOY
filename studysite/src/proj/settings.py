@@ -25,7 +25,7 @@ SECRET_KEY = locals_vars.SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['213.171.24.45']
+ALLOWED_HOSTS = ['proggyit.ru']
 
 
 # Application definition
