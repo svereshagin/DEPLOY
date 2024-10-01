@@ -2,10 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.pg-env
+persistentdata/*
 # C extensions
 *.so
-
+locals_vars.py
 # Distribution / packaging
 .Python
 build/

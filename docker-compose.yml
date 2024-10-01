@@ -4,3 +4,8 @@ services:
     build:
       context: ./studysite # django service folder
     image: studysite
+  
+   postgresql-db:
+    restart: always
+    image: postgres
+    env_file: ./postgresql-db/.pg-env
