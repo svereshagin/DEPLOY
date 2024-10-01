@@ -1,11 +1,12 @@
-services: 
-  django-backend:
+version: "3.10"
+services:
+  studysite:
     restart: always
     build:
       context: ./studysite # django service folder
     image: studysite
-  
-   postgresql-db:
+
+  postgresql-db:
     restart: always
     image: postgres
     env_file: ./postgresql-db/.pg-env
